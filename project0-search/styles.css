@@ -1,0 +1,17 @@
+body {
+    margin: 0; 
+    height: 100vh; 
+    display: flex;
+    flex-direction: column; 
+
+nav { display: flex;
+     justify-content: flex-end;
+     gap: 15px;
+     margin: 20px; }
+
+.center-container {
+    flex: 1; /* take remaining space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
